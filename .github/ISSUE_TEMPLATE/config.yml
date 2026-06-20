@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📧 Email support
+    url: mailto:kapisch@icloud.com
+    about: For account, purchase, or private/security matters, email us directly.
+  - name: 🌐 SkyLocation website
+    url: https://www.skylocation.app
+    about: Features, pricing, and download links.
+  - name: ⬇️ Download SkyLocation
+    url: https://apps.apple.com/app/skylocation/id6751451868
+    about: Get it on the App Store or Google Play.

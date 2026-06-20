@@ -1,0 +1,27 @@
+SkyLocation — Proprietary Software
+Copyright (c) 2026 Aeon GbR. All rights reserved.
+
+SkyLocation is commercial, closed-source software. This repository contains only
+public documentation, release notes, screenshots, and an issue tracker for the
+SkyLocation apps. It does NOT contain the app's source code, and no license to
+the app or its source code is granted here.
+
+The SkyLocation applications for iOS and Android are licensed, not sold, to you
+under:
+  - Apple's Licensed Application End User License Agreement (the standard EULA),
+    for the iOS app distributed via the App Store; and
+  - the Google Play Terms of Service, for the Android app; and
+  - the SkyLocation Terms and Privacy Policy at https://www.skylocation.app.
+
+You may NOT copy, modify, distribute, sublicense, reverse engineer, or create
+derivative works of the SkyLocation apps except as expressly permitted by those
+agreements or by applicable law.
+
+Documentation in this repository (the Markdown files) may be quoted or linked for
+the purpose of referring to, reviewing, or reporting issues about SkyLocation.
+The SkyLocation name, logo, app icon, and screenshots are trademarks and
+copyrighted assets of Aeon GbR and may not be used to imply endorsement.
+
+THE SOFTWARE AND DOCUMENTATION ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
+Contact: kapisch@icloud.com

@@ -1,0 +1,64 @@
+name: 🐞 Bug report
+description: Something in SkyLocation is not working as expected.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping make SkyLocation better. Please keep it short and specific — the fields below are all we usually need.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - iOS (iPhone)
+        - Android
+        - Website (skylocation.app)
+    validations:
+      required: true
+  - type: input
+    id: app_version
+    attributes:
+      label: SkyLocation version
+      description: Find it in the app's More / About screen (e.g. iOS 4.1, Android 1.5.2).
+      placeholder: "e.g. 4.1"
+    validations:
+      required: true
+  - type: input
+    id: os_version
+    attributes:
+      label: OS version & device
+      placeholder: "e.g. iOS 18.6 on iPhone 15 Pro, or Android 14 on Pixel 8"
+    validations:
+      required: true
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened?
+      description: What did you see, and what did you expect instead? Screenshots help.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the app in airplane mode
+        2. Tap Get Location
+        3. ...
+  - type: dropdown
+    id: connectivity
+    attributes:
+      label: Were you online or offline?
+      options:
+        - Offline / airplane mode
+        - Online (Wi-Fi or cellular)
+        - Not sure
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and this is not a duplicate.
+          required: true

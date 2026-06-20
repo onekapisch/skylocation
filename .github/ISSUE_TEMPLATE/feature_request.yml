@@ -1,0 +1,39 @@
+name: 💡 Feature request
+description: Suggest an idea or improvement for SkyLocation.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Got an idea? We build from real requests. Tell us the problem you are trying to solve — that helps more than a pre-baked solution.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - iOS (iPhone)
+        - Android
+        - Both
+        - Website
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: When do you hit it, and what do you do today instead?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: How would you like it to work? Sketches or examples welcome.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and this is not already requested.
+          required: true
