@@ -6,7 +6,7 @@
 
 ### Know exactly where you are. Even without signal.
 
-**Offline GPS for iPhone and Android.** Your exact coordinates, nearest city, and country — in airplane mode, underground, at sea, or anywhere off the grid. A 160,000-place database lives inside the app, so there is nothing to download before you travel. Free, with an optional one-time **€2.99 Pro** upgrade.
+**Offline GPS for iPhone and Android.** Your exact coordinates, nearest city, and country, in airplane mode, underground, at sea, or anywhere off the grid. A 160,000-place database lives inside the app, so there is nothing to download before you travel. Free, with an optional one-time **€2.99 Pro** upgrade.
 
 [![iOS](https://img.shields.io/badge/iOS-18.6%2B-0A84FF?logo=apple&logoColor=white)](https://apps.apple.com/app/skylocation/id6751451868)
 [![Android](https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white)](https://play.google.com/store/apps/details?id=com.skylocation.android)
@@ -26,27 +26,27 @@
 </div>
 
 > [!NOTE]
-> **SkyLocation is a commercial, closed-source app.** This repository hosts its **documentation, release notes, and public issue tracker** — not the source code. Bug reports and feature requests are genuinely welcome: [open an issue](https://github.com/onekapisch/skylocation/issues/new/choose).
+> **SkyLocation is a commercial, closed-source app.** This repository hosts its **documentation, release notes, and public issue tracker**, not the source code. Bug reports and feature requests are genuinely welcome: [open an issue](https://github.com/onekapisch/skylocation/issues/new/choose).
 
 ---
 
 ## Why
 
-Your phone's GPS chip is a **receiver**. It listens to satellites, so it keeps working with cellular and Wi-Fi switched off — in airplane mode, in a tunnel, on a ship, deep in the mountains. The problem is the apps: most map apps go blank the moment you lose signal, because they need a connection to turn your coordinates into a place.
+Your phone's GPS chip is a **receiver**. It listens to satellites, so it keeps working with cellular and Wi-Fi switched off, in airplane mode, in a tunnel, on a ship, deep in the mountains. The problem is the apps: most map apps go blank the moment you lose signal, because they need a connection to turn your coordinates into a place.
 
 SkyLocation closes that gap. It reads your raw GPS fix and resolves your **nearest city and country entirely on-device**, from a database that ships inside the app. No connection, no pre-trip downloads, no account. Open it at 37,000 ft, point at the window, tap once, and you know where you are.
 
 ## What you get
 
-- 🛰️ **Coordinates anywhere, offline** — exact latitude/longitude, altitude, speed, and accuracy straight from GPS satellites, with the network off.
-- 🏙️ **Nearest city & country, built in** — a **160,000-place** offline database turns raw numbers into a readable location. Nothing to download first.
-- 📍 **Exact Place** *(Pro)* — pinpoint down to the village or suburb, not just the closest big city.
-- 🌅 **Horizon** *(Pro)* — sunrise, sunset, golden hour, civil twilight, and moon phase, plus a live compass that points to your saved beacons. All computed offline.
-- 🧭 **Insights** *(Pro)* — timezone, hemisphere, climate, elevation, distance from the equator, and live GPS precision at a glance.
-- 🗂️ **Private location history** *(Pro)* — every detection auto-saved, searchable, and filterable (in-flight / on-ground / favorites). It never leaves your device.
-- 🗺️ **Interactive maps** *(Pro)* — standard, hybrid, and satellite views, plus one-tap open in Apple or Google Maps.
-- 🆘 **Emergency SOS** *(Pro)* — share your exact position when it matters, built for off-grid moments.
-- ✈️ **GPS Flight Guide** *(free)* — how to get a fix at altitude, and why GPS works when nothing else does.
+- 🛰️ **Coordinates anywhere, offline**: exact latitude/longitude, altitude, speed, and accuracy straight from GPS satellites, with the network off.
+- 🏙️ **Nearest city & country, built in**: a **160,000-place** offline database turns raw numbers into a readable location. Nothing to download first.
+- 📍 **Exact Place** *(Pro)*: pinpoint down to the village or suburb, not just the closest big city.
+- 🌅 **Horizon** *(Pro)*: sunrise, sunset, golden hour, civil twilight, and moon phase, plus a live compass that points to your saved beacons. All computed offline.
+- 🧭 **Insights** *(Pro)*: timezone, hemisphere, climate, elevation, distance from the equator, and live GPS precision at a glance.
+- 🗂️ **Private location history** *(Pro)*: every detection auto-saved, searchable, and filterable (in-flight / on-ground / favorites). It never leaves your device.
+- 🗺️ **Interactive maps** *(Pro)*: standard, hybrid, and satellite views, plus one-tap open in Apple or Google Maps.
+- 🆘 **Emergency SOS** *(Pro)*: share your exact position when it matters, built for off-grid moments.
+- ✈️ **GPS Flight Guide** *(free)*: how to get a fix at altitude, and why GPS works when nothing else does.
 
 ## Available on
 
@@ -58,12 +58,12 @@ SkyLocation closes that gap. It reads your raw GPS fix and resolves your **neare
 
 ## How it compares
 
-SkyLocation is built for one job: **instantly knowing exactly where you are when you have no signal**, especially in the air. These are all good apps in adjacent categories — here is an honest look at that specific dimension. ✅ yes · ⚠️ partial / with setup · ❌ no.
+SkyLocation is built for one job: **instantly knowing exactly where you are when you have no signal**, especially in the air. These are all good apps in adjacent categories. Here is an honest look at that specific dimension. ✅ yes · ⚠️ partial / with setup · ❌ no.
 
 | | **SkyLocation** | Apple Maps (offline) | Google Maps (offline) | Flighty | Organic Maps |
 |---|:---:|:---:|:---:|:---:|:---:|
 | Works with zero internet / in airplane mode | ✅ | ⚠️ in pre-downloaded areas | ⚠️ in pre-downloaded areas | ❌ needs internet | ✅ with downloaded maps |
-| Nothing to download before you travel | ✅ database is built in | ❌ download regions first | ❌ download regions first | — | ❌ download maps first |
+| Nothing to download before you travel | ✅ database is built in | ❌ download regions first | ❌ download regions first | - | ❌ download maps first |
 | Shows exact GPS coordinates | ✅ | ❌ | ❌ | ❌ | ✅ |
 | Nearest city & country offline | ✅ 160k places | ⚠️ within download | ⚠️ within download | ❌ | ⚠️ |
 | Designed for in-flight use | ✅ | ❌ | ❌ | ✅ flight tracking | ❌ |
@@ -93,7 +93,7 @@ No sign-up, and the core offline GPS, nearest city, and country are free on both
 
 ## Roadmap & feedback
 
-We build from real requests. The public roadmap lives in **[Issues](https://github.com/onekapisch/skylocation/issues)** — open a [bug report](https://github.com/onekapisch/skylocation/issues/new/choose) or [feature request](https://github.com/onekapisch/skylocation/issues/new/choose), and 👍 the ones you want most. Release notes are in **[CHANGELOG.md](CHANGELOG.md)**.
+We build from real requests. The public roadmap lives in **[Issues](https://github.com/onekapisch/skylocation/issues)**: open a [bug report](https://github.com/onekapisch/skylocation/issues/new/choose) or [feature request](https://github.com/onekapisch/skylocation/issues/new/choose), and 👍 the ones you want most. Release notes are in **[CHANGELOG.md](CHANGELOG.md)**.
 
 ## FAQ
 
@@ -101,7 +101,7 @@ We build from real requests. The public roadmap lives in **[Issues](https://gith
 No. It is a commercial app sold on the App Store and Google Play. This repository is its public documentation and issue tracker, not its source code.
 
 **Why pay for Pro when free offline map apps exist?**
-Free SkyLocation already gives you exact coordinates plus your nearest city and country offline, with zero setup. **Pro (€2.99, one-time, no subscription)** adds pinpoint *Exact Place*, the *Horizon* sun/moon/compass, private *Location History*, interactive maps, and *Emergency SOS*. If you want full offline turn-by-turn navigation, a maps app like Organic Maps is a great free choice — SkyLocation is for knowing *exactly where you are right now*, especially in the air.
+Free SkyLocation already gives you exact coordinates plus your nearest city and country offline, with zero setup. **Pro (€2.99, one-time, no subscription)** adds pinpoint *Exact Place*, the *Horizon* sun/moon/compass, private *Location History*, interactive maps, and *Emergency SOS*. If you want full offline turn-by-turn navigation, a maps app like Organic Maps is a great free choice. SkyLocation is for knowing *exactly where you are right now*, especially in the air.
 
 **Does it really work in airplane mode with no signal?**
 Yes. GPS is satellite-based and receive-only, so it works without cellular or Wi-Fi. Internet is only ever optional (for example, loading map tiles).
@@ -113,7 +113,7 @@ No. Everything is processed on-device and nothing is sent anywhere. See [SECURIT
 
 <div align="center">
 
-**If SkyLocation helps you, please ⭐ [star this repo](https://github.com/onekapisch/skylocation) — it genuinely helps an indie app get discovered.**
+**If SkyLocation helps you, please ⭐ [star this repo](https://github.com/onekapisch/skylocation). It genuinely helps an indie app get discovered.**
 
 [App Store](https://apps.apple.com/app/skylocation/id6751451868) · [Google Play](https://play.google.com/store/apps/details?id=com.skylocation.android) · [Website](https://www.skylocation.app) · [Issues](https://github.com/onekapisch/skylocation/issues/new/choose) · [Privacy](SECURITY.md)
 

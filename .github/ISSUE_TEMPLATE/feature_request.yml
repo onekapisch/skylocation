@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Got an idea? We build from real requests. Tell us the problem you are trying to solve — that helps more than a pre-baked solution.
+        Got an idea? We build from real requests. Tell us the problem you are trying to solve, that helps more than a pre-baked solution.
   - type: dropdown
     id: platform
     attributes:

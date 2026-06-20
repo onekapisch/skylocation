@@ -13,7 +13,7 @@ SkyLocation is **offline-first and on-device by design**. This document explains
 - GPS coordinates, altitude, speed, heading, and accuracy.
 - The resolved city/country and "Exact Place" (computed locally from the bundled 160,000-place database).
 - Your entire **Location History** and favorites (stored in the app's local database).
-- Horizon data (sun, moon, beacons) — calculated on-device with standard astronomical formulas.
+- Horizon data (sun, moon, beacons), calculated on-device with standard astronomical formulas.
 
 We have **no server** that receives any of this. There is nothing to log in to.
 
@@ -29,18 +29,18 @@ That is the complete list. The app makes no background network calls and sends n
 
 ## Permissions
 
-- **Location** (While Using) — the entire point of the app; used on-device only.
+- **Location** (While Using), the entire point of the app; used on-device only.
 - **Android** also declares `INTERNET` (optional map tiles + purchase verification) and `VIBRATE` (haptic feedback). No background location, no storage, no contacts.
 
 ## Honest note about the website
 
-The apps are tracker-free. The marketing site at **skylocation.app** uses **privacy-respecting, aggregate web analytics** (Vercel Analytics — no cookies, no cross-site tracking, no sale of data) to count visits. If you want zero analytics, use the app: it has none. We call this out here rather than claim the website is analytics-free.
+The apps are tracker-free. The marketing site at **skylocation.app** uses **privacy-respecting, aggregate web analytics** (Vercel Analytics, no cookies, no cross-site tracking, no sale of data) to count visits. If you want zero analytics, use the app: it has none. We call this out here rather than claim the website is analytics-free.
 
 ## Reporting a vulnerability
 
 If you find a security or privacy issue, please report it privately first:
 
-- 📧 **kapisch@icloud.com** — subject line `SECURITY: SkyLocation`.
+- 📧 **kapisch@icloud.com**: subject line `SECURITY: SkyLocation`.
 
 Please include the platform + version, a description, and reproduction steps. We aim to acknowledge within **72 hours** and to fix verified issues in the next reasonable release. Please do not open a public issue for security reports, and please do not test against other users' data. Responsible disclosure is appreciated and credited if you wish.
 
